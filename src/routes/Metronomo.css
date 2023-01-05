@@ -1,0 +1,108 @@
+html {
+    color: white;
+    background-color: rgb(31, 31, 37);
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  .maindiv {
+    display: flex;
+  }
+  .centralizar{
+    text-align: center;
+  }
+  
+  .divdotempo {
+    text-align: center;
+  }
+  #tempo_slider{
+    margin-bottom: 15px;
+    width: 210px;
+    -webkit-appearance: none;
+    height: 20px;
+    background: #000;
+    outline: none;
+    border: 5px solid rgb(211, 222, 200);
+    border-radius: 8px;
+  }
+  /* for chrome/safari */
+  #tempo_slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30px;
+    height: 50px;
+    background: #000;
+    cursor: pointer;
+    border: 5px solid rgb(230, 238, 221);
+    border-radius: 4px;
+  }
+  
+  /* for firefox */
+  #tempo_slider::-moz-range-thumb {
+    width: 30px;
+    height: 60px;
+    background: #000;
+    cursor: pointer;
+    border: 5px solid rgb(219, 229, 209);
+    border-radius: 4px;
+  }
+  .divdocompasso {
+    border-radius: 20px;
+    text-align: center;
+    padding: 15px;
+  }
+  table * {
+    text-align: right;
+    margin: 5px;
+  }
+  .divdovolume {
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 80px;
+  }
+  #volume_slider {
+    transform: rotate(-90deg);
+    margin-left: -65px;
+    margin-top: 90px;
+    width: 210px;
+    -webkit-appearance: none;
+    height: 30px;
+    background: #000;
+    outline: none;
+    border: 5px solid rgb(211, 222, 200);
+    border-radius: 8px;
+  }
+  /* for chrome/safari */
+  #volume_slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30px;
+    height: 60px;
+    background: #000;
+    cursor: pointer;
+    border: 5px solid rgb(230, 238, 221);
+    border-radius: 4px;
+  }
+  
+  /* for firefox */
+  #volume_slider::-moz-range-thumb {
+    width: 30px;
+    height: 60px;
+    background: #000;
+    cursor: pointer;
+    border: 5px solid rgb(219, 229, 209);
+    border-radius: 4px;
+  }
+  
+  #tocarButton, #pararButton {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+  }
+  

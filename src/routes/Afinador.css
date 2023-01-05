@@ -1,0 +1,9 @@
+#prev, #next {
+    color: rgb(127, 127, 127);
+    padding: 10px;
+}
+#nota{
+    color: rgb(67, 198, 71);
+    font-size: 2rem;
+    padding: 10px;
+}
