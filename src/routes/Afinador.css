@@ -1,9 +1,30 @@
 #prev, #next {
     color: rgb(127, 127, 127);
     padding: 10px;
+    font-size: 1.5rem;
 }
 #nota{
     color: rgb(67, 198, 71);
-    font-size: 2rem;
+    font-size: 3rem;
     padding: 10px;
+}
+#divmostrador{
+    border: 1px solid white;
+    border-radius: 20px;
+    width: min-content;
+}
+#divdosspans{
+    display: flex;
+    align-items: flex-end;
+}
+#divdosspans span{
+    flex-grow: 1;
+    text-align: center;
+}
+button{
+    margin-top: 10vh;
+}
+#microfoneButton{
+    width: 80vw;
+    font-size: 2rem;
 }
